@@ -1,4 +1,4 @@
--- customers segmention
+-- customers segemention
 with customers_segemention as (
 select c.customer_key,sum(f.sales_amount) as total_spending ,
 min (f.order_date) as first_order ,
